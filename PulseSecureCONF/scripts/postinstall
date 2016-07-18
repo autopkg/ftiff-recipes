@@ -1,0 +1,2 @@
+#!/bin/sh
+/Applications/Junos\ Pulse.app/Contents/Plugins/JamUI/jamCommand -importFile /Library/ftiff/PulseSecureCONF.jnprpreconfig

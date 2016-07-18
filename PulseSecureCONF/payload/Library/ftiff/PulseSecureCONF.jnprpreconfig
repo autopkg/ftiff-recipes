@@ -1,0 +1,33 @@
+schema version {
+    version: "1"
+}
+
+machine settings {
+    version: "14"
+    guid: "%%%REPLACE%%%"
+    connection-source: "preconfig"
+    server-id: "%%%REPLACE%%%"
+    allow-save: "true"
+    user-connection: "true"
+    splashscreen-display: "false"
+    dynamic-trust: "true"
+    dynamic-connection: "true"
+    FIPSClient: "false"
+    wireless-suppression: "false"
+}
+
+ive "%%%REPLACE%%%" {
+    friendly-name: "%%%REPLACE%%%"
+    version: "5"
+    guid: "%%%REPLACE%%%"
+    server-id: "%%%REPLACE%%%"
+    connection-source: "preconfig"
+    connection-policy-override: "true"
+    use-for-secure-meetings: "false"
+    use-for-connect: "true"
+    this-server: "false"
+    uri: "%%%REPLACE%%%"
+    connection-identity: "user"
+    client-certificate-location-system: "false"
+}
+

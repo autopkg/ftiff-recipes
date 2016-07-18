@@ -1,0 +1,50 @@
+<policy>
+    <general>
+        <name>%TRIGGER_OTHER%</name>
+        <enabled>true</enabled>
+        <trigger>EVENT</trigger>
+        <trigger_other>%TRIGGER_OTHER%</trigger_other>
+        <frequency>%FREQUENCY%</frequency>
+        <category>
+            <name>_AutoPkg</name>
+        </category>
+    </general>
+    <scope>
+        <all_computers>true</all_computers>
+        <computers />
+        <computer_groups />
+        <buildings />
+        <departments />
+        <limit_to_users>
+            <user_groups />
+        </limit_to_users>
+        <limitations>
+            <users />
+            <user_groups />
+            <network_segments />
+            <ibeacons />
+        </limitations>
+        <exclusions>
+            <computers />
+            <computer_groups />
+            <buildings />
+            <departments />
+            <users />
+            <user_groups />
+            <network_segments />
+            <ibeacons />
+        </exclusions>
+    </scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+    </package_configuration>
+    <scripts>
+		<!--Scripts added by JSSImporter-->
+    </scripts>
+    <self_service>
+        <use_for_self_service>false</use_for_self_service>
+    </self_service>
+    <maintenance>
+        <recon>false</recon>
+    </maintenance>
+</policy>
